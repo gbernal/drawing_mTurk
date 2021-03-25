@@ -17,7 +17,7 @@ table_name = sketchCollection
 
 [Server Parameters]
 host = 0.0.0.0
-port = 22362
+port = 40332
 cutoff_time = 30
 logfile = server.log
 loglevel = 0
