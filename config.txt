@@ -13,7 +13,7 @@ browser_exclude_rule = MSIE
 
 [Database Parameters]
 database_url = sqlite:///participants.db
-table_name = turkdemo
+table_name = sketchCollection
 
 [Server Parameters]
 host = 0.0.0.0
@@ -37,3 +37,4 @@ launch_in_sandbox_mode = true
 # Server domain name for publicly-accessible route to psiturk server.
 # If running on heroku, set this to your heroku app url --
 # e.g., "ad_url_domain = example-app.herokuapp.com"
+ad_url_domain = sketchcollect.herokuapp.com/
