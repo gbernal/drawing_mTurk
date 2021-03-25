@@ -37,4 +37,3 @@ launch_in_sandbox_mode = true
 # Server domain name for publicly-accessible route to psiturk server.
 # If running on heroku, set this to your heroku app url --
 # e.g., "ad_url_domain = example-app.herokuapp.com"
-ad_url_domain =paperdreams.media.mit.edu
