@@ -6,13 +6,15 @@
 
 // Initalize psiturk object
 var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
-var randomLine;
 
+
+var randomLine;
 // All pages to be loaded
 var pages = [
 	"instructions/instruct-1.html",
 	"instructions/instruct-2.html",
 	"instructions/instruct-3.html",
+	"stage.html",
 	"instructions/instruct-ready.html",
 	"stage.html"
 ];
@@ -20,7 +22,11 @@ var pages = [
 psiTurk.preloadPages(pages);
 
 var instructionPages = [ // add as a list as many pages as you like
+	"instructions/instruct-1.html",
+	"instructions/instruct-2.html",
+	"instructions/instruct-3.html",
 	"instructions/instruct-ready.html"
+
 ];
 
 
